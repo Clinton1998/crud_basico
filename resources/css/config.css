@@ -1,0 +1,27 @@
+.table {
+    @apply border-collapse border-2 border-blue-800 w-full;
+}
+
+.table thead th {
+    @apply border border-blue-500 px-2 py-1 text-left;
+}
+
+.table tbody td {
+    @apply border border-blue-500 px-2 py-1;
+}
+
+.table tbody tr:nth-child(2n+1) {
+    @apply bg-blue-200;
+}
+
+.btn {
+    @apply px-3 py-1 rounded-md text-center;
+}
+
+.btn-warning {
+    @apply font-bold text-lg text-white bg-yellow-500;
+}
+
+.btn-danger {
+    @apply font-bold text-lg text-white bg-red-700;
+}
