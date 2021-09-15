@@ -22,6 +22,22 @@
     @apply font-bold text-lg text-white bg-yellow-500;
 }
 
+.btn-warning:hover {
+    @apply bg-yellow-800;
+}
+
 .btn-danger {
     @apply font-bold text-lg text-white bg-red-700;
+}
+
+.btn-danger:hover {
+    @apply bg-red-900;
+}
+
+.btn-primary {
+    @apply font-bold text-lg text-white bg-blue-500;
+}
+
+.btn-primary:hover {
+    @apply bg-blue-800;
 }
