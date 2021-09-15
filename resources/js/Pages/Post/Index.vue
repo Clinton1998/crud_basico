@@ -1,6 +1,6 @@
 <template>
     <h1 class="text-3xl text-blue-700 text-center font-extrabold">Listado de posts</h1>
-    <div class="mb-4">
+    <div class="mb-4 sticky top-10">
         <Link :href="route('posts.create')" class="btn btn-primary inline-block">Nuevo post</Link>
     </div>
     <table class="table table-fixed">

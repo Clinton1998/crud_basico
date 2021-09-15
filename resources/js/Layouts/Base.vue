@@ -7,10 +7,10 @@
             <slot></slot>
         </main>
         <div class="fixed bottom-0 left-0">
+            <h2 class="text-red-900 text-lg">Layout persistente</h2>
             <iframe width="200" src="https://www.youtube.com/embed/GIYbeJAk9SM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
-    </div>
-    
+    </div>    
 </template>
 <script>
 export default {
